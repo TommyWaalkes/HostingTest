@@ -1,0 +1,47 @@
+body{
+    margin-top: 100px;
+    background-color: pink;
+    font-family:'Courier New', Courier, monospace;
+}
+#IndexHeader{
+    background-color: #9ae2ff;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 48px;
+    text-align: center;
+    padding: 20px;
+    border: 10px solid #9ae2ff;
+    margin-top: 0px;   
+}
+.blinking{
+    animation:blinkingText 0.5s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: red; }
+    25%{    color: greenyellow; }
+    50%{    color: blue; }
+    75%{    color: purple; }
+    100%{   color: beige;  }
+}
+#StickyHeader{
+    position: fixed;
+    height: 50%;
+    width: auto;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+.centerElement{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+img{
+    width: 500px;
+    height: auto;
+    border: 10px solid #9ae2ff;
+}
+.bottom{
+    position: fixed;
+    bottom: 0;
+}
